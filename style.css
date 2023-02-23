@@ -1,0 +1,108 @@
+body {
+    margin: 0px;
+}
+
+.header {
+    padding: 0 25px 0 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+}
+
+.hide{
+    display: none !important;
+}
+
+.background{
+    display: flex;
+    background-color: #FBD603;
+    height: 90vh;
+    width: 100%;
+}
+
+.card {
+    height: 250px;
+    width: 185px;
+    border-radius: 10px 50px;
+    margin: 8px;
+    cursor: pointer;
+    justify-content: center;
+    box-shadow: 2px 2px 10px 3px rgb(0 0 0 / 20%);
+    /* display: flex; */
+}
+
+.pokemon-card-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.pokemon-card-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.pokemon-card-wrapper img {
+    background-color: red;
+    height: 100px;
+    width: 100px;
+
+}
+
+.pokemon-card-class {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+}
+
+.pokemon-card-class div {
+    background-color: blue;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.popUp-container{
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(5px);
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.detail-card{
+    cursor: pointer;
+    box-shadow: 2px 2px 10px 3px rgb(0 0 0 / 20%);
+    height: 690px;
+    width: 450px;
+    z-index: 100;
+
+}
+
+.top-container{
+    min-height: 50%;
+    background-color: green;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.bottom-container{
+    display: flex;
+    min-height: 50%;
+    background-color: #f9f9f9;
+    margin-top: -30px;
+    border-radius: 20px;
+}
+
+
+

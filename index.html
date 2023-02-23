@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+    <title>Pokedex</title>
+</head>
+
+<body>
+    <div class="header "><a href="index.html">
+            <h1>Pokedex</h1>
+        </a>
+        <div><input id="searchbar" placeholder="search Pokemon..." type="text"><img id="loading"></div>
+    </div>
+
+    <div class="background" id="maincontent">
+        <div class="card" id="pokecard" onclick="openPokemon()">
+            <div class="pokemon-card-head">
+                <h2>Bulbasaur</h2>
+                <div>#1</div>
+            </div>
+            <div class="pokemon-card-wrapper">
+                <div class="pokemon-card-class">
+                    <div>grass</div>
+                    <div>poison</div>
+                </div>
+                <img src="" alt="Bulbasaur">
+            </div>
+        </div>
+        <div class="card" id="pokecard" onclick="openPokemon()">
+
+        </div>
+    </div>
+
+    <div id="popUpContainer" class="popUp-container hide">
+        <div id="detail-card" class="detail-card" onclick="closePokemon()">
+            <div class="top-container"></div>
+            <div class="bottom-container"></div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
