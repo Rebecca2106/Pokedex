@@ -22,7 +22,7 @@ body {
 }
 
 .card {
-    height: 250px;
+    height: 350px;
     width: 185px;
     border-radius: 10px 50px;
     margin: 8px;
@@ -88,16 +88,40 @@ body {
     z-index: 100;
 
 }
+.pokemon-details{
+    margin-top: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+#bottom-container-about{
+    padding: 16px;
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+    
+}
 
 .top-container{
     min-height: 50%;
     background-color: green;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 30px;
+}
+
+.top-container img {
+    height: 300px;
+    width: auto;
 }
 
 .bottom-container{
     display: flex;
+    flex-direction: column;
     min-height: 50%;
     background-color: #f9f9f9;
     margin-top: -30px;
